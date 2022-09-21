@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    table{
+      border: 1px solid black;
+      width: 550px;
+      height: 150px;
+      text-align: center;
+    }
+    table tr:nth-child(1):hover {filter: invert(100%)}
+    table tr:nth-child(2):hover {filter: invert(100%)}
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <table border="1px">
+    <tr bgcolor="#198f8f" >
+      <td width="50%" colspan="2" rowspan="2">Мусійчук</td>
+      <td colspan="3">Ярослав Сергійович</td>
+    </tr>
+    <tr height="35px" bgcolor="#f5f519" id="2">
+      <td rowspan="2">ІВ-91</td>
+      <td rowspan="3" width="12.5%" >ЛР2</td>
+      <td rowspan="3" width="12.5%">Варіант 19</td>
+    </tr >
+    <tr height="35px">
+      <td></td>
+      <td></td>
+    </tr>
+    <tr height="35px">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <div>
+  <div class="rectangle" id="rectangle-position">
+    <div class="circle" id="circle-position"></div>
+  </div>
+  <div class="rectangle" id="rectangle-transform">
+    <div class="circle" id="circle-transform"></div>
+  </div>
+  </div>
+</body>
+</html>
